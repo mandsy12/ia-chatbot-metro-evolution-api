@@ -25,7 +25,10 @@ app.post("/webhook/evolution", async (req, res) => {
 
     const event = body.event;
 
-    if (event !== "MESSAGES_UPSERT") {
+    const eventoMensagem =
+      event === "MESSAGES_UPSERT" || event === "messages.upsert";
+
+    if (!eventoMensagem) {
       return res.status(200).json({
         message: "Evento ignorado",
       });
