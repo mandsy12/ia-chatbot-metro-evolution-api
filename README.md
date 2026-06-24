@@ -1,6 +1,6 @@
 # Chatbot de IA — Projeto Integrador Metrô
 
-Este repositório contém a primeira entrega da disciplina de **Inteligência Artificial**, desenvolvida como parte do **Projeto Integrador Metrô**.
+Este repositório contém a entrega da disciplina de **Inteligência Artificial**, desenvolvida como parte do **Projeto Integrador Metrô**.
 
 O projeto consiste em um chatbot simples integrado ao WhatsApp por meio da **Evolution API**, utilizando **Node.js**, **Express**, **Axios**, **Dotenv** e **Webhook**.
 
